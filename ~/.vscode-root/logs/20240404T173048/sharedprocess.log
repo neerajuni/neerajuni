@@ -1,0 +1,84 @@
+2024-04-04 17:30:49.814 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2024-04-04 17:30:49.884 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///root/.vscode/extensions Unable to create file 'vscode-userdata:/root/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-04-04 17:30:49.884 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2024-04-04 17:30:49.986 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-04-04 17:31:22.059 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-04-04 17:32:03.784 [info] Getting Manifest... xdebug.php-debug
+2024-04-04 17:32:03.793 [info] Installing extension: xdebug.php-debug
+2024-04-04 17:32:07.122 [info] Getting Manifest... xdebug.php-pack
+2024-04-04 17:32:07.130 [info] Installing extension: xdebug.php-pack
+2024-04-04 17:32:07.730 [info] Getting Manifest... xdebug.php-debug
+2024-04-04 17:32:07.738 [info] Getting Manifest... zobo.php-intellisense
+2024-04-04 17:32:07.827 [info] Waiting for already requested installing extension xdebug.php-debug xdebug.php-pack
+2024-04-04 17:32:07.827 [info] Installing extension: zobo.php-intellisense
+2024-04-04 17:32:08.023 [info] Extension signature is verified: xdebug.php-debug
+2024-04-04 17:32:08.281 [info] Extracted extension to file:///root/.vscode/extensions/xdebug.php-debug-1.34.0: xdebug.php-debug
+2024-04-04 17:32:08.287 [info] Renamed to /root/.vscode/extensions/xdebug.php-debug-1.34.0
+2024-04-04 17:32:08.289 [info] Extracting extension completed. xdebug.php-debug
+2024-04-04 17:32:08.297 [info] Extension installed successfully: xdebug.php-debug
+2024-04-04 17:32:08.297 [info] Finished waiting for already requested installing extension xdebug.php-debug xdebug.php-pack
+2024-04-04 17:32:08.370 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-04-04 17:32:08.980 [info] Extension signature is verified: xdebug.php-pack
+2024-04-04 17:32:08.983 [info] Extracted extension to file:///root/.vscode/extensions/xdebug.php-pack-1.0.3: xdebug.php-pack
+2024-04-04 17:32:08.988 [info] Renamed to /root/.vscode/extensions/xdebug.php-pack-1.0.3
+2024-04-04 17:32:08.988 [info] Extracting extension completed. xdebug.php-pack
+2024-04-04 17:32:09.068 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-04-04 17:32:11.993 [info] Extension signature is verified: zobo.php-intellisense
+2024-04-04 17:32:13.201 [info] Extracted extension to file:///root/.vscode/extensions/zobo.php-intellisense-1.3.3: zobo.php-intellisense
+2024-04-04 17:32:13.207 [info] Renamed to /root/.vscode/extensions/zobo.php-intellisense-1.3.3
+2024-04-04 17:32:13.208 [info] Extracting extension completed. zobo.php-intellisense
+2024-04-04 17:32:13.215 [info] Extension installed successfully: xdebug.php-pack
+2024-04-04 17:32:13.215 [info] Extension installed successfully: zobo.php-intellisense
+2024-04-04 17:32:13.290 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-04-04 17:32:13.375 [info] Getting Manifest... brapifra.phpserver
+2024-04-04 17:32:13.379 [info] Installing extension: brapifra.phpserver
+2024-04-04 17:32:14.947 [info] Extension signature is verified: brapifra.phpserver
+2024-04-04 17:32:14.984 [info] Extracted extension to file:///root/.vscode/extensions/brapifra.phpserver-3.0.2: brapifra.phpserver
+2024-04-04 17:32:14.990 [info] Renamed to /root/.vscode/extensions/brapifra.phpserver-3.0.2
+2024-04-04 17:32:14.991 [info] Extracting extension completed. brapifra.phpserver
+2024-04-04 17:32:14.998 [info] Extension installed successfully: brapifra.phpserver
+2024-04-04 17:32:15.070 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

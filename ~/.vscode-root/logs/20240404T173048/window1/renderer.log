@@ -1,0 +1,34 @@
+2024-04-04 17:30:49.531 [info] Started local extension host with pid 816072.
+2024-04-04 17:30:49.575 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2024-04-04 17:30:49.944 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2024-04-04 17:30:52.509 [info] [perf] Render performance baseline is 23ms
+2024-04-04 17:31:21.674 [info] Started local extension host with pid 816192.
+2024-04-04 17:31:24.300 [info] [perf] Render performance baseline is 26ms
+2024-04-04 17:31:38.037 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ne (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:24336)
+    at async ie.query (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:24557)
+    at async Y.queryGallery (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2941:12106)
+    at async ee.Cc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:22903)
+    at async ee.mc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:12817
+2024-04-04 17:31:38.037 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ie.getExtensions (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:22267)
+    at async Y.getExtensions (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2941:12529)
+    at async ve.Gc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:24913)
+    at async ve.Pc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:27577)
+    at async ve.mc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:12817
+2024-04-04 17:31:43.019 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ie.z (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:26277)
+    at async ie.getExtensions (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:22267)
+    at async Y.getExtensions (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2941:12529)
+    at async pe.Gc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:24913)
+    at async pe.Kc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:25908)
+    at async pe.mc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:12817
